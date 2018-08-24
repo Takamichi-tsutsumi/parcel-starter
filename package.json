@@ -1,0 +1,33 @@
+{
+  "name": "mercari-corp-seats-prototype",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "flow": "flow",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kouzoh/mercari-corp-seats-prototype.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kouzoh/mercari-corp-seats-prototype/issues"
+  },
+  "homepage": "https://github.com/kouzoh/mercari-corp-seats-prototype#readme",
+  "devDependencies": {
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "flow-bin": "^0.79.1",
+    "parcel-bundler": "^1.9.7",
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  }
+}
